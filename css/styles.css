@@ -291,6 +291,28 @@ margin-bottom: 8px;
   text-align: center;
 }
 
+/* #endregion section4 */
+
+/* #region section5 */
+
+.section_four .container .list-item3 {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.section_four .container .list-item3 .list3 {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .section_f_h {
   font-size: 36px;
   line-height: 1.11;
@@ -298,6 +320,7 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .section_f_list {
@@ -306,6 +329,7 @@ margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .section_f_p {
