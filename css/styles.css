@@ -234,6 +234,28 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.icon-wrapper{
+    background-color: #F4F4FD;
+    /* колір підкладки */
+    padding: 20px;
+    /* відступ навколо іконки */
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    /* заокруглені кути */
+    display: inline-block;
+    /* щоб фон був лише навколо іконки */
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+}
+
+.icon {
+  position: relative;
+  left: 35%;
+}
+
+
 /* #endregion section2 */
 
   /* #region section3 */
