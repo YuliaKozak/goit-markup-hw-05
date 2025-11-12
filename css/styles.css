@@ -124,6 +124,11 @@ a {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
+    .link .active{
+      color: #404bbf;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+ 
 
    .link.active::after {
       content: "";
@@ -136,9 +141,6 @@ a {
       border-radius: 2px;
       display: block;
       background-color: #404bbf;
-      color: #404bbf;
-      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     }
 
   .link:hover, .link:focus {
