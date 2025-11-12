@@ -500,7 +500,8 @@ svg {
 .footer-container {
   display: flex;
   gap: 120px;
-  align-items: center;
+  align-items: baseline;
+  margin-right: 120px
 }
 
 .footer .footer-left {
@@ -531,6 +532,10 @@ svg {
 
 .social-media_footer {
   margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
 }
 
 .social-list{
@@ -545,13 +550,13 @@ svg {
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-link:hover,.social-link:focus {
-  background-color: #31D0AA;
-}
-.social-link svg {
-  fill: #31D0AA;
-  };
 */
+
+.social-link-footer:hover,.social-link-footer:focus {
+  background-color: #31d0aa;
+}
+.social-link-footer .icon {
+  fill: #f4f4fd;
+  }
 
 /* #endregion footer */
