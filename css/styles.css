@@ -746,6 +746,11 @@ form {
     padding-left: 38px;
 }
 
+.pop-input:focus {
+  border-color: #4D5AE5;
+  outline: none;
+}
+
 .form-field-icon {
   position: absolute;
   left: 12px;
@@ -755,6 +760,10 @@ form {
   fill: rgba(46, 47, 66, 0.4);
 }
 
+.pop-input:focus+.form-field-icon {
+  stroke: #4D5AE5;
+  fill: #4D5AE5;
+}
 .pop-comment{
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -769,6 +778,11 @@ form {
     color: #8E8F99;
     padding: 8px 287px 98px 16px;
 
+}
+
+.pop-comment:focus {
+  border-color: #4D5AE5;
+  outline: none;
 }
 
 .pop-checkbox {
