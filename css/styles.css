@@ -692,8 +692,25 @@ form {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
  }
 
+ .form-close {
+   position: absolute;
+   top: 24px;
+   right: 24px;
+   stroke: #111;
+   padding: 0;
+   cursor: pointer;
+   border: none;
+   background-color: transparent;
+   transition: stroke 250ms ease;
+   border-radius: 4px;
+   width: 8px;
+   height: 8px;
+  }
+
+ 
  .form-field {
   display: block;
+  margin-bottom: 16px;
 
  }
 
@@ -705,6 +722,8 @@ form {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 16px;
+    margin-top: 24px;
 }
 
 .pop-label {
@@ -741,6 +760,31 @@ form {
     border-radius: 4px;
     width: 360px;
     height: 120px;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    padding: 8px 287px 98px 16px;
+
+}
+
+.pop-checkbox {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: #8E8F99;
+}
+
+.policy-link{
+  line-height: 133%;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4D5AE5;
 }
 
 
@@ -754,6 +798,9 @@ form {
     background: #4D5AE5;
     color: #FFFFFF;
     border: none;
+    display: block;
+    margin: 24px auto 0;
+  
  }
   
 /* #endregion footer */
