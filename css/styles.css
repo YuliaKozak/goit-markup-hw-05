@@ -644,14 +644,10 @@ justify-content: center;
       /*cursor: pointer;*/
     }
 
-  .footer-icon {
-  
-  }
+ 
 form {
   display: block;
 }
-
-
 
  .region-popup {
   position: fixed;
@@ -694,25 +690,31 @@ form {
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
  }
 
+
  .form-close {
    position: absolute;
    top: 24px;
    right: 24px;
-   stroke: #111;
    padding: 0;
    cursor: pointer;
    border: none;
-   background-color: transparent;
+   background-color: #E7E9FC;
    transition: stroke 250ms ease;
-   border-radius: 4px;
-   width: 8px;
-   height: 8px;
+   border-radius: 100%;
+   fill: #E7E9FC;
+   stroke-width: 1px;
+   stroke: rgba(0, 0, 0, 0.1);
+    width: 24px;
+    height: 24px;
+  /*
+  fill: #E7E9FC;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);*/
   }
   
     .form-close:hover,
     .form-close:focus {
-      stroke: #FD9222;
-      fill: #;
+      fill: #E7E9FC ;
     }
  
  .form-field {
@@ -809,8 +811,33 @@ form {
   color: #4D5AE5;
 }
 
+.pop-checkbox-label{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 117%;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+}
+.custom-checkbox {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 8px;
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(17, 17, 17, 0.14);
+  fill: transparent;
+  transition: fill 250ms ease, background-color 250ms ease;
+}
 
-
+.pop-checkbox:checked + .pop-checkbox-label > .custom-checkbox {
+  background-color: #404BBF;
+  border: 1px solid #404BBF;
+  fill: #f4f4fd;
+}
  .popup-button{
     border-radius: 4px;
     padding: 16px 32px;
