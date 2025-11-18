@@ -587,51 +587,73 @@ justify-content: center;
   fill: #f4f4fd;
   }
 
-    form {
-      display: flex;
-      gap: 16px;
-      align-items: center;
-    }
+.footer-form {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
 
-    label {
-      font-weight: 500;
-      color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
+.footer-form-p {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+label {
+  font-weight: 500;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
   .footer-form-input {
     display: block;
-    border: 1px solid #FFFFFF;
     border-radius: 4px;
     padding-left: 16px;
     width: 264px;
     height: 40px;
-    
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: 1px solid #ffffff;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+
+  input::placeholder {
+    color: #ffffff;
+    /* білий колір */
+    opacity: 1;
+    /* щоб у деяких браузерах не було напівпрозорим */
   }
 
 .footer-form-button {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 
     border-radius: 4px;
     padding: 8px 64px 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
    
 
     color: #FFFFFF;
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
 
     border: none;
+    border-radius: 4px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -648,6 +670,11 @@ justify-content: center;
 form {
   display: block;
 }
+
+.footer-icon {
+  margin-left: 16px;
+}
+
 
  .region-popup {
   position: fixed;
