@@ -651,6 +651,8 @@ form {
   display: block;
 }
 
+
+
  .region-popup {
   position: fixed;
   display: flex;
@@ -706,7 +708,12 @@ form {
    width: 8px;
    height: 8px;
   }
-
+  
+    .form-close:hover,
+    .form-close:focus {
+      stroke: #FD9222;
+      fill: #;
+    }
  
  .form-field {
   display: block;
@@ -757,7 +764,8 @@ form {
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  fill: rgba(46, 47, 66, 0.4);
+  /*fill: rgba(46, 47, 66, 0.4);*/
+  fill: #2E2F42;
 }
 
 .pop-input:focus+.form-field-icon {
