@@ -549,6 +549,7 @@
                         Leave your contacts and we will call you back
                     </p>
                     
+                    <form>
                         <div class="form-field">
                             <label class="pop-label" for="name">Name</label>
                             <div class="field-wrapper">
@@ -579,13 +580,13 @@
                             </div>
                         </div>
                         <div class="form-field">
-                            <label class="pop-label" for="comment">Comment</label>
-                            <input class="pop-comment" id="comment" placeholder="Text input"> 
+                            <label class="pop-label" for="user-comment">Comment</label>
+                            <textarea class="pop-comment" id="user-comment" name="user-comment" placeholder="Text input"> </textarea>
                         </div>
                         
                         <div class="form-field">
                         
-                            <input class="pop-checkbox visually-hidden" type="checkbox" id="policy" name="policy" value="true">
+                            <input class="pop-checkbox visually-hidden" type="checkbox" id="policy" name="policy" value="true"/> 
                             <label class="pop-checkbox-label" for="policy">
                                 <span class="custom-checkbox">
                                     <svg  width="10" height="8">
@@ -597,7 +598,9 @@
                             
                     
                         </div>
-                    <button type="submit" class="popup-button">Send</button>
+                        <button type="submit" class="popup-button">Send</button>
+                    </form>
+                        
         </div>
     </div>
     <!-- #endregion popup-->

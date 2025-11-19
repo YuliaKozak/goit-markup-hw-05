@@ -775,7 +775,7 @@ form {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
@@ -887,9 +887,10 @@ form {
   fill: #f4f4fd;
 }
  .popup-button{
+    font-family: "Roboto", sans-serif;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4D5AE5;
@@ -897,6 +898,8 @@ form {
     border: none;
     display: block;
     margin: 24px auto 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
  }
  /*modal window*/
