@@ -695,7 +695,7 @@ form {
     margin-bottom: 8px;
  }
 
- .form-field-checkbox{
+ .form-field-comment{
   margin-bottom: 24px;
  }
 
@@ -749,9 +749,10 @@ form {
 
  .form-close:hover,
  .form-close:focus {
-   fill: #E7E9FC;
+   fill: #ffffff;
    background-color: #404BBF;
    border: none;
+   
  }
 
  .svg {
@@ -765,8 +766,7 @@ form {
 
  .form-close-icon:hover,
  .form-close-icon:focus {
-  /*fill: #ffffff;*/
-  stroke: #ffffff;
+  fill: currentColor;
  }
 /*.form-close-icon:hover,
 .form-close-icon:focus {
