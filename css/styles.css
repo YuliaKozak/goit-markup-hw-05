@@ -696,6 +696,10 @@ form {
  }
 
  .form-field-comment{
+  margin-bottom: 16px;
+ }
+
+ .form-field-checkbox{
   margin-bottom: 24px;
  }
 
